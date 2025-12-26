@@ -1,6 +1,6 @@
 # Tim Portfolio Website (PHP + Nginx)
 
-A simple personal/portfolio website built with PHP and static assets (CSS, images, fonts).  
+A simple  website built with PHP and static assets (CSS, images, fonts).  
 This project is dockerized so any developer can run it quickly using Docker Compose.
 
 ## Tech Stack
