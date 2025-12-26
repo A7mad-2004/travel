@@ -20,24 +20,7 @@
     </div>
     <!-- start header -->
     <header>
-        <div class="container">
-            <a href="" class="logo">
-                <img src="../img/logo.png" alt="">
-            </a>
-            <nav>
-                <i class="menu"> <img src="../img/menu_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg" alt=""></i>
-                <ul>
-                    <li><a href="index.php" class="active">Home</a></li>
-                    <li><a href="#" class="">Sirvece</a></li>
-                    <li><a href="#" class="">Profill</a></li>
-                    <li><a href="#" class="">About</a></li>
-                    <li><a href="#" class="">Contact</a></li>
-                </ul>
-            </nav>
-            <div class="login">
-                <button>Login</button>
-            </div>
-        </div>
+        
     </header>
     <!-- end header -->
 
