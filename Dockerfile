@@ -1,10 +1,11 @@
-FROM nginx:alpine
+FROM php:8.2-apache
 
-RUN rm /etc/nginx/conf.d/default.conf
 
-COPY docker/nginx/default.conf /etc/nginx/conf.d/
-COPY html /usr/share/nginx/html
+RUN a2enmod rewrite
+
+# انسخ ملفات الموقع (من مجلد html)
+COPY html/ /var/www/html/
+
+RUN chown -R www-data:www-data /var/www/html
 
 EXPOSE 80
-
-CMD ["nginx", "-g", "daemon off;"]
